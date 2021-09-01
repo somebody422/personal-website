@@ -1,0 +1,29 @@
+
+
+
+<script>
+  let sock = new WebSocket("ws://localhost:5453")
+  sock.addEventListener("open", function(ev) {
+    console.log("open:", ev);
+  });
+  sock.addEventListener("message", function(ev) {
+    console.log("message:", ev);
+  });
+  sock.addEventListener("close", function(ev) {
+    console.log("close:", ev);
+  });
+  console.log("sock:", sock);
+
+  function sendMsg() {
+    console.log("sendMsg()");
+    sock.send("from browser");
+  }
+</script>
+
+<head>
+</head>
+
+<body>
+  <button onclick="sendMsg()">click me!</button>
+</body>
+

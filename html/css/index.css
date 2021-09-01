@@ -1,0 +1,46 @@
+/* Here is some comments! a little bit about this file...
+
+...
+*/
+
+.content-div {
+  /*width: 300px;*/
+  max-width: 500px;
+  /*border: 2px solid black;*/
+  margin: 0 auto;
+  padding: 10px;
+  background-color: lightblue;
+  border-radius: 10%;
+}
+
+.divbutton {
+  border-radius: 10%;
+  margin: 5px;
+  display: inline-block;
+  min-width: 20px;
+  min-height: 20px;
+  background-color: grey;
+}
+.divbutton:hover {
+  background-color: white;
+}
+
+#header-one p {
+  /*font-weight: bold;*/
+  /*padding: 80px 80px 80px 80px;*/
+}
+
+#header-one h1 {
+  /*background-color: cyan;*/
+  text-align: center;
+}
+#p1 {
+  /*background-color: yellow;*/
+}
+#p2 {
+  /*background-color: lightblue;*/
+}
+
+p {
+  background-color: yellow;
+}

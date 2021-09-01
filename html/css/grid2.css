@@ -1,0 +1,27 @@
+
+
+
+/* With this layout the two side columns are fixed size, while the middle one is auto. The center div can set its size as needed */
+
+#grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  /* Arrange the grid in the center of the parent container */
+  justify-content: center;
+}
+
+#leftdiv {
+  max-width: 300px;
+  margin: 0px 10px;
+}
+
+#centerdiv {
+  margin: 0px 10px;
+  max-width: 400px;
+}
+
+#rightdiv {
+  max-width: 300px;
+  margin: 0px 10px;
+}

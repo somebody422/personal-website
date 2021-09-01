@@ -1,0 +1,16 @@
+
+
+[data-theme="blue-fade"] {
+  border-bottom: 4px double darkgrey;
+  background-image: linear-gradient(to bottom, lightblue, white);
+}
+
+[data-theme="blue-fade"] .navbar-item {
+  padding: 3px 6px;
+  margin: 5px 10px;
+  color: black;
+}
+
+[data-theme="blue-fade"] .navbar-item:hover {
+  background-color: darkgrey;
+}

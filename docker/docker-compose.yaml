@@ -1,0 +1,27 @@
+
+version: "2.4"
+services:
+  web-server:
+    image: website/web-server
+    # Start a basic init process, and run the main process NOT as PID 1. This fixes the problem of not getting signals like SIGSTOP to our main process.
+    init: true
+    # Put the build context as ../html.. We don't want to actually leave the website code inside web-server/
+    build:
+      context: ../
+      dockerfile: docker/web-server/Dockerfile
+#    ports:
+#      - 90:80
+    volumes:
+      - ./web-server/dirvol:/dirvol
+      - sharedvol:/sharedvol
+
+  game-server:
+    image: website/game-server
+    init: true
+    build: ./game-server
+    volumes:
+      - sharedvol:/sharedvol
+
+
+volumes:
+  sharedvol:

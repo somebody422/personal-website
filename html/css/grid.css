@@ -1,0 +1,21 @@
+
+
+/* testing this out. This will set the size of the HTML element to the size of the viewport */
+html {
+  height: 100%;
+}
+
+.box {
+  height: 70px;
+  width: 70px;
+  border: 2px solid black;
+  border-radius: 15%;
+  padding: 3px;
+}
+
+
+#grid-container {
+  display: grid;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 100px 100px;
+}

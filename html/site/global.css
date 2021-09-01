@@ -1,0 +1,42 @@
+/*
+ * This is the big css file that all pages on the website should include.
+ */
+
+
+/* Very light blue page background color: #f8f8ff */
+/* Very light tan/orange background: #fff3e8 */
+/* More lime: #fff9e6 */
+
+
+/* Snippets */
+@import url("snippets/navbar-snippet.css");
+@import url("snippets/footer-snippet.css");
+
+/* Themes */
+@import url("themes/blue-fade.css");
+@import url("themes/light-blocky.css");
+
+/* Resets */
+html,
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Base styles */
+body {
+  font-family: "Open Sans", sans-serif;
+  background-image: url("res/so-white.png");
+}
+
+
+/* A few small, useful styles */
+.centered {
+  text-align: center;
+}
+.hidden {
+  display: none;
+}

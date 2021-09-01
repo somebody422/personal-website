@@ -1,0 +1,49 @@
+
+
+[data-theme="light-blocky"] .navbar-section {
+  //border-bottom: 4px double darkgrey;
+  //background-image: linear-gradient(to bottom, lightblue, white);
+  //background-color: lightgrey;
+  box-shadow: 5px 1px 5px lightgrey;
+  //justify-content: space-around;
+  padding-left: 20px;
+}
+
+[data-theme="light-blocky"] .navbar-item {
+  padding: 3px 6px;
+  margin: 15px 12px;
+  color: black;
+
+  /* This allows the underline's "position:absolute" to hook onto this element */
+  position: relative;
+}
+
+/* The "before" element is the underline */
+[data-theme="light-blocky"] .navbar-item::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  bottom: -1px;
+  width: 82%;
+  color: black;
+  background-color: black;
+  display: block;
+
+  /* Center this line */
+  margin: auto;
+  right: 0; left: 0;
+
+  /* Transition */
+  transform: scaleX(0);
+  transition: transform .2s ease-out;
+}
+
+[data-theme="light-blocky"] .navbar-item:hover::after {
+  transform: scaleX(1);
+}
+
+
+
+h1 {
+}
+

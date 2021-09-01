@@ -1,0 +1,10 @@
+.navbar-section {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.navbar-item {
+  padding: 3px 6px;
+  margin: 5px 10px;
+  text-decoration: none;
+}

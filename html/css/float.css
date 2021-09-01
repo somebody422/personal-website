@@ -1,0 +1,36 @@
+.box {
+  min-width: 100px;
+  min-height: 100px;
+  background-color: grey;
+  border: 5px solid black;
+  margin: 5px;
+  display: inline-block;
+}
+
+.floatbox {
+  background-color: yellow;
+}
+
+#float2 {
+  float: left;
+}
+
+#float3 {
+  float: left;
+}
+
+#float4 {
+  float: right;
+}
+
+#float5 {
+  float: left;
+}
+
+#box1 {
+  clear: both;
+}
+
+#floatp {
+  clear: left;
+}

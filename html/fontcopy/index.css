@@ -1,0 +1,94 @@
+
+.italic {
+  font-style: italic;
+}
+.sub-desc {
+  font-family: proxima-nova,Helvetica Neue,Arial,sans-serif;
+  font-size: .8em;
+  color: grey;
+}
+
+.button {
+  border-radius: 12%;
+}
+
+
+#nav-bar {
+
+}
+
+#body {
+  display: block;
+  max-width: 700px;
+  margin: auto;  /* Center horizontally */
+}
+
+#header {
+
+}
+
+#subheader {
+  border-bottom: 1px solid lightgrey;
+  border-top: 1px solid lightgrey;
+}
+
+#social-links {
+  display: inline-block;
+}
+#subheader a {
+  float: right;
+  display: block;
+  margin-top: 15px;
+}
+
+
+#social-links {
+
+}
+
+#using-macbook-img {
+  width: 100%;
+  height: auto%;
+}
+
+#post {
+
+}
+
+#author-name {
+  font-style: bold;
+  font-family: "proxima-nova", Helvetica Neue, Arial, sans-serif;
+}
+
+#author {
+
+}
+
+#post-content {
+  font-size: 110%;
+}
+
+#bottom-bar {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  height: 60px;
+  background-color: #F0A541;
+  padding-top: 20px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+#on-demand-button {
+  /*display: block;*/
+  float: right;
+  background-color: black;
+  color: white;
+  padding: 8px 20px;
+}
+
+#on-demand-img {
+  max-width: 250px;
+}
+

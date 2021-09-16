@@ -19,6 +19,7 @@
       <div class="centered"><img src="res/kitten_cropped.jpg" class="rounded-img"></div>
       <h1 class="centered">Hello there.</h1>
       <p class="centered">Here is some information about myself. Not too much i want to seem interesting but MYSTERIOUS</p>
+      <p class="centered">I am a programmer, musician, and tinkerer. I enjoy web, embedded, and systems dev, as well as electrical design. And I play a mean bassline!</p>
     </div>
 
 

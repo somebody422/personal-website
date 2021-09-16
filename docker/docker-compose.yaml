@@ -9,8 +9,8 @@ services:
     build:
       context: ../
       dockerfile: docker/web-server/Dockerfile
-#    ports:
-#      - 90:80
+    ports:
+      - 80:80
     volumes:
       - ./web-server/dirvol:/dirvol
       - sharedvol:/sharedvol

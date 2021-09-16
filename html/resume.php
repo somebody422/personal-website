@@ -46,8 +46,15 @@
           </div>
           <div class="experience-sporian-right">
             <p>Sporian microsystems designs and manufactures sensors for unique and/or extreme environments.</p>
-            <p>During my time at Sporian, I participated in many projects, often coming quickly up to speed and contributing, and sometimes leading the software development side of the effort.</p>
-            <p>I coordinated firmware dev for a redox potential sensor, working within a limited budget. Ultimately, we produced a working prototype.<p>
+            <p>During my time at Sporian, I participated in many projects, often coming quickly up to speed to contribute. Worked with both high level scripting, and low level firmware.</p>
+            <p>Key skills/experiences include:</p>
+            <ul>
+              <li>Fast and efficent firmware in C, integrating uC with electronics capabilities</li>
+              <li>Reviewing electrical schematics, and working closely with EEs</li>
+              <li>Curating git repositories and documentation</li>
+              <li>Creating GUIs to interact with running sensors, collecting data for lab usage</li>
+            </ul>
+            <p>I coordinated firmware dev for a redox sensor, working within a limited budget. Working prototype was used in a high-temperature chemical sensing environment.<p>
           </div>
           <div class="experience-rit-left">
             <h3>BS Computer Science, Minor in EE</h3>
@@ -61,14 +68,19 @@
               <li>Network architecture</li>
               <li>Software engineering processes / workflows</li>
             </ul>
-            <p>During my last semester, persued my interested in electrical engineering, finishing a minor.<p>
+            <p>Persued interests in electrical engineering, learning circuit and embedded design, and ultimately finishing a minor.<p>
           </div>
           <div class="experience-id-left">
             <h3>Backend Web Developer</h3>
             <p>Industry Dive<br>June 2018 - August 2018</p>
           </div>
           <div class="experience-id-right">
-            <p>Industry dive is a place</p>
+            <p>Back-end web development, focusing on maintaining multiple sites:</p>
+            <ul>
+              <li>Adding features to Django back-end</li>
+              <li>Migrating/maintaining MySQL database for multiple sites</li>
+              <li>Tweaking front-end functionality (javascript)</li>
+            </ul>
           </div>
         </div>
     </div>  <!-- l-experience -->

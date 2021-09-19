@@ -19,6 +19,7 @@
 }
 .l-body {
   grid-area: body;
+  margin-top: 10%;
 }
 .l-footer {
   grid-area: footer;
@@ -65,3 +66,14 @@
   width: 100%;
 }
 
+.serif {
+  font-family: serif;
+}
+
+
+/*
+ * Only bad practices below this line
+ */
+h1 {
+  font-size: 3.1em;
+}

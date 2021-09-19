@@ -56,7 +56,7 @@
               <li>Curating git repositories and documentation</li>
               <li>Creating GUIs to interact with running sensors, collecting data for lab usage</li>
             </ul>
-            <p>I coordinated firmware dev for a redox sensor, working within a limited budget. Working prototype was used in a high-temperature chemical sensing environment.<p>
+            <p>I coordinated firmware dev for a chemicsal sensor, working within a limited budget. Working prototype was used in a high-temperature sensing environment.<p>
           </div>
           <div class="experience-rit-left">
             <h3>BS Computer Science, Minor in EE</h3>
@@ -99,12 +99,8 @@
       </div> <!-- skills-header -->
       <div class="skills">
         <div class="skill-container">
-          <h4>Java</h4>
-          <p>My first programming language. Made several GUIs and simple games.</p>
-        </div>
-        <div class="skill-container">
           <h4>C, Posix/libc</h4>
-          <p>Plenty of experience with embedded and non-embedded C. Working with pure C as well as libc and interfacing with linux (sockets, files, syscalls).
+          <p>Plenty of experience with embedded and non-embedded C. Working with pure C/libc as well as interfacing with linux (sockets, files, syscalls) and assembly (mips, x86).
         </div>
         <div class="skill-container">
           <h4>Python</h4>
@@ -115,12 +111,16 @@
           <p>MySQL, SQLite. Experience designing as well as maintaining database systems.</p>
         </div>
         <div class="skill-container">
-          <h4>Web Front-end</h4>
-          <p>TODO: learn this shit first then description</p>
+          <h4>Web back-end</h4>
+          <p>Back-end server maintenance and development. Python/Django, and PHP/Wordpress</p>
         </div>
         <div class="skill-container">
-          <h4>Web back-end</h4>
-          <p>TODO: learn this shit first then description</p>
+          <h4>Code management and practices</h4>
+          <p>Inspecting and fixing VCS history, mainly Git. Software practices such as creating documentation, automatic testing, code reviewing, ect.</p>
+        </div>
+        <div class="skill-container">
+          <h4>Embedded code/electronics</h4>
+          <p>Designing circuits around microcontrollers, writing firmware, debugging software and hardware issues.</p>
         </div>
       </div>  <!-- skills -->
       <div class="skills-header">
@@ -132,16 +132,17 @@
       </div> <!-- skills-header -->
       <div class="skills">
         <div class="skill-container">
+          <h4>Web Front-end</h4>
+          <p>Website design, mockup and prototype creation. Varius tools/languages including HTML, CSS, javascript.</p>
+        </div>
+        <div class="skill-container">
           <h4>Containerization</h4>
-          <p>Docker, vagrant. TODO: more info here</p>
+          <p>Creating micro-services using Docker, docker-compose, kubernetes</p>
         </div>
         <div class="skill-container">
-          <h4>placeholder</h4>
-          <p>something I havn't learned yet. blah blah blah blah blah</p>
-        </div>
-        <div class="skill-container">
-          <h4>Toasting Bread</h4>
-          <p>Deep experience with toasting white, wheat, and sourdough. Specialize in darkness settings 2 through 6.<br>Second place won at the Intercollegiate Tournament for Competetive Toasting.</p>
+          <h4>Misc languages</h4>
+          <p>Languages I know but havn't used in a while:</p>
+          <p>Lua, Ruby, Rust, Perl</p>
         </div>
       </div>  <!-- skills -->
     </div>  <!-- l-skills -->

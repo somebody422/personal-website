@@ -16,8 +16,8 @@
 
 
     <div class="l-body">
-      <h1 class="centered">Hello there.</h1>
-      <p class="centered">I'm sam.</p>
+      <h1 class="centered cs-emphasis-1 serif">Hello there.</h1>
+      <p class="centered bigger-font">I'm sam.</p>
       <p class="centered">I am a programmer interested in many different styles and languages of developement. I also play with electronics and make music. Check out my Github and resume below:</p>
 
       <div class="icon-container">

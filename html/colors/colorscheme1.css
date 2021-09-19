@@ -1,0 +1,26 @@
+
+
+
+/* Global variables */
+:root {
+  --light-bg-1: rgb(233, 247, 241);
+
+  --bluegreen: rgb(0, 153, 94);
+  --bluegreen-dark: rgb(0, 74, 45);
+  --bluegreen-light: rgb(0, 219, 135);
+
+
+  --red: #e76f51;
+  --red-darker: #c05d45;
+  --orange: #f4a261;
+  --yellow: #e9c46a;
+  --cyan: #2a9d8f;
+  --blue: #264653;
+}
+
+
+/* Classes */
+
+.cs-emphasis-1 {
+  color: var(--red-darker);
+}

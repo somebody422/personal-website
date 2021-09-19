@@ -16,6 +16,9 @@
 @import url("themes/blue-fade.css");
 @import url("themes/light-blocky.css");
 
+/* A color theme: only pick one! */
+@import url("colors/colorscheme1.css");
+
 /* Resets */
 html,
 body{
@@ -30,6 +33,10 @@ body{
 body {
   font-family: "Open Sans", sans-serif;
   background-image: url("res/so-white.png");
+}
+
+p {
+  line-height: 1.7em;
 }
 
 a {
@@ -48,4 +55,8 @@ a:hover {
 }
 .hidden {
   display: none;
+}
+
+.bigger-font {
+  font-size: 1.4em;
 }

@@ -55,6 +55,9 @@
 .l-skills {
   grid-area: skills;
   margin-top: 40px;
+
+  /* Can remove this once there is something else below l-skills */
+  margin-bottom: 140px;
 }
 .l-skills > h2 {
   text-align: center;
@@ -178,20 +181,7 @@
   min-height: 50px;
   padding: 10px 20px;
   text-align: center;
-  /*
-  background-color: lightblue;
-  border-radius: 20%;
-  */
-  /*
-  background-image: url("res/scribble_25_scaled.png");
-  */
-  /*
-  background-image: url("res/sun_scaled.png");
-  */
-  /*
-  background-repeat: no-repeat;
-  background-position: center;
-  */
+
 }
 .skill-container h4 {
   margin-bottom: 10px;

@@ -14,23 +14,27 @@
       <?php require('snippets/navbar-snippet.html'); ?>
     </div>
 
-    <div class="l-body-top">
-      <h1 class="centered">Welcome!</h1>
+
+    <div class="l-body">
+      <h1 class="centered">Hello there.</h1>
+      <p class="centered">I'm sam.</p>
+      <p class="centered">I am a programmer interested in many different styles and languages of developement. I also play with electronics and make music. Check out my Github and resume below:</p>
+
+      <div class="icon-container">
+        <a href="https://github.com/somebody422">
+          <div class="icon-32x32">
+            <img src="res/github-icons/GitHub-Mark-32px.png">
+          </div>
+        </a>
+        <a href="/resume.php">
+          <div class="icon-32x32">
+            <img src="res/page.png">
+          </div>
+        </a>
+      </div>
+
     </div>
 
-    <img class="l-pic" src="res/kittens.jpg">
-    <div class="l-intro-text">
-      <h3>About me</h3>
-      <p>I am a programmer, musician, and tinkerer. I like to spend time learning new programming languages and tools, whether in embedded, web, or cloud. My passtion for both software and hardware leads to lots of tinkering with microcontrollers and small computers.</p>
-      <p>You can often find me jamming out on the bass or keys</p>
-      <p>Check out my <a href="/resume">resume</a> or ___</p>
-    </div> <!-- l-intro-text -->
-
-
-
-    <div class="l-body-bottom">
-      <img src="res/kitten_cropped.jpg" class="rounded-img">
-    </div>
 
     <div class="l-footer">
       <?php require('snippets/footer-snippet.html'); ?>

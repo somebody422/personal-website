@@ -1,0 +1,42 @@
+#body-container {
+  display: flex;
+}
+#body-left {
+  flex-grow: 1;
+  order: 1;
+}
+#body {
+  flex-grow: 2;
+  order: 2;
+  min-width: 350px;
+  flex-basis: 400px;
+}
+#body-right {
+  flex-grow: 1;
+  order: 3;
+}
+
+
+
+#form-container {
+  border: 1px solid black;
+  border-radius: 5%;
+  background-color: lightgrey;
+  max-width: 500px;
+  padding: 5px 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+form hr {
+  margin: 15px 10px;
+}
+
+form input {
+
+}
+
+#submit-message {
+  text-align: center;
+}

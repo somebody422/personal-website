@@ -66,7 +66,9 @@
 
 
     <div class="l-body">
-      <p>Contact me at my email shedin422@gmail.com. Alternatively, use the form below to send me a message.</p>
+      <p>Contact me at <a href="mailto:somebody422@gmail.com">shedin422@gmail.com</a>
+      <br><br>
+      You can also use the form below to send an email to me.</p>
 
     </div>
     <div class="l-form">

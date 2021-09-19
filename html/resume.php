@@ -26,11 +26,13 @@
 
     <div class="l-intro l-centered-row">
       <div class="intro">
-        <img src="res/kittens.jpg">
+        <!-- <img src="res/kittens.jpg"> -->
+        <div class="img-container img-circle">
+          <img src="res/headshot.png">
+        </div>
         <div class="intro-text">
           <h3>About me</h3>
-          <p>Here is some info. I guess i like computers like a big nerd. Sometimes I type things into a keyboard and think about stuff for money.</p>
-          <p>Hey I also like music! Ill play some rad basslines if you ask nicely. Used to hit things with sticks but now i forget how.</p>
+          <p>I'm a flexible developer with a wide variety of experience. I specialize in embedded/electrical systems, as well as web development. A strong background in linux leads to flexibility using open source tooling, embedded linux, and cloud configuration and management. </p>
           </div>
       </div>
     </div>  <!-- l-intro -->

@@ -32,6 +32,15 @@ body {
   background-image: url("res/so-white.png");
 }
 
+a {
+  text-decoration: none;
+  transition: .4s;
+  color: rgb(0, 37, 97);
+}
+a:hover {
+  color: orange;
+}
+
 
 /* A few small, useful styles */
 .centered {

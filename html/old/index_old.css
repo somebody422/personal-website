@@ -1,0 +1,65 @@
+/*
+ * Layouts
+ */
+/* Overall container for the page */
+.l-page {
+  display: grid;
+  grid-template-rows: auto 1fr 1fr 1fr auto;
+  grid-template-columns: 2fr 2fr 4fr 2fr;
+  grid-template-areas:
+    "header header header header"
+    "padding-left body-top body-top padding-right"
+    "padding-left body-left body-right padding-right"
+    "padding-left body-bottom body-bottom padding-right"
+    "footer footer footer footer";
+  row-gap: 10px;
+  height: 100%;
+}
+
+.l-header {
+  grid-area: header;
+}
+.l-body-top {
+  grid-area: body-top;
+  /*min-width: 350px;*/
+  margin-bottom: 20px;
+}
+.l-intro-text {
+  grid-area: body-right;
+  margin-left: 20px;
+}
+.l-pic {
+  grid-area: body-left;
+}
+.l-body-bottom {
+  grid-area: body-bottom;
+}
+.l-footer {
+  grid-area: footer;
+}
+
+
+/*
+ * Misc/modules
+ */
+
+.intro-text {
+  grid-area: intro;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr;
+}
+.intro-image {
+  grid-area: body-left;
+}
+.intro-text {
+  greid-area: body-right;
+  margin-left: 30px;
+}
+
+/* global.css? */
+.rounded-img {
+  border-radius: 100%;
+  width: 120px;
+  height: auto;
+}

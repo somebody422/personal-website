@@ -21,28 +21,28 @@
       <div class="project-left-small">
         <div class="image-container"><img src="res/industry-dive.png"></div>
       </div>
-      <div class="project-right-large">
+      <div class="project-info project-right-large">
         <h3 class="centered-block">Database management</h3>
         <p>3 Month internship modifying and maintaining MySQL databases. Serves multiple websites:</p>
         <p><a href="https://www.industrydive.com/industries/">industrydive.com</a></p>
       </div>
 
       <!-- Personal Projects -->
-      <div class="project-left-large">
+      <div class="project-right-small project-row-2">
+        <div class="image-container"><img src="res/coding-icon-label.png"></div>
+      </div>
+      <div class="project-info project-left-large project-row-2">
           <h3 class="centered-block">Passion and school projects</h3>
           <p><a href="https://github.com/somebody422/dnssec_client">DNS client:</a> A simple pythonDNSSEC-enabled client.</p>
           <p><a href="https://github.com/somebody422/mycurses">ncurses wrapper:</a> A C++ library that wraps ncurses, and adds functionality to build simple text-based layouts.</p>
           <p><a href="https://github.com/somebody422/twitter_bacon_bot">Twitter bot:</a> Crawls through twitter posts to try and establish a path from an arbitrary user to Kevin Bacon, following mentions.</p>
-      </div>
-      <div class="project-right-small">
-        <div class="image-container"><img src="res/coding-icon-label.png"></div>
       </div>
 
       <!-- Sporian Microsystems -->
       <div class="project-left-small">
         <div class="image-container"><img src="res/sporian_logo.png"></div>
       </div>
-      <div class="project-right-large">
+      <div class="project-info project-right-large">
         <h3 class="centered-block">Firmware development</h3>
         <p>Worked on several projects, including:
           <ul>

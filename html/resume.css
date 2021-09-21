@@ -6,7 +6,7 @@
 .l-page {
   display: grid;
   grid-template-rows: auto 1fr 1fr 1fr auto;
-  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-columns: 1fr 4fr 1fr;
   grid-template-areas:
     "header header header"
     "padding-left intro padding-right"
@@ -22,22 +22,10 @@
 
 .l-intro {
   grid-area: intro;
-  display: grid;
-  grid-template-columns: auto 1fr;
-  grid-template-rows: 1fr;
 }
-/*
 .l-intro > img {
-  grid-row: 1 / 2;
-  grid-column: 1 / 2;
-  height: 100px;
-  width: 100%;
-}
-*/
-.l-intro-text {
-  grid-row: 1 / 2;
-  grid-column: 2 / 3;
-  margin-left: 30px;
+  max-height: 50%;
+  max-width: 50%;
 }
 
 .l-experience {
@@ -79,24 +67,7 @@
  * Misc/modules
  */
 
-.intro {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: 1fr;
-}
-.intro > img {
-  grid-row: 1 / 2;
-  grid-column: 1 / 2;
-}
-.intro-text {
-  grid-row: 1 / 2;
-  grid-column: 2 / 3;
-  margin-left: 30px;
-}
-
 .img-container {
-  grid-row: 1 / 2;
-  grid-column: 1 / 2;
   width: 80%;
   margin: auto;
 }
@@ -105,47 +76,16 @@
   max-height: 100%;
 }
 
-.img-circle {
-
-}
-.img-circle img {
-
-}
-
 .experience {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-template-rows: auto auto auto;
-  grid-template-areas:
-    "row1-left row1-right"
-    "row2-left row2-right"
-    "row3-left row3-right";
-  row-gap: 30px;
-  column-gap: 20px;
   text-align: center;
   padding-bottom: 60px;
 }
-.experience-sporian-left {
-  grid-area: row1-left;
-  min-width: 450px;
+.experience-location {
+  margin-bottom: 7vh;
 }
-.experience-sporian-right {
-  grid-area: row1-right;
+.experience-info {
   text-align: left;
-}
-.experience-rit-left {
-  grid-area: row2-left;
-}
-.experience-rit-right {
-  grid-area: row2-right;
-  text-align: left;
-}
-.experience-id-left {
-  grid-area: row3-left;
-}
-.experience-id-right {
-  grid-area: row3-right;
-  text-align: left;
+  margin-bottom: 10vh;
 }
 
 
@@ -165,15 +105,6 @@
   margin: 11px;
   margin-left: auto;
 }
-/* Grid container for a bunch of skills */
-.skills {
-  display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
-  row-gap: 20px;
-  column-gap: 20px;
-}
 /* An individual skills "box" */
 .skill-container {
   min-width: 50px;
@@ -184,7 +115,7 @@
 
 }
 .skill-container h4 {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 .skill-container p:first-of-type {
   margin-top: 7px;
@@ -192,5 +123,33 @@
 
 .star-image {
   width: 50%;
+}
+
+
+
+@media (min-width: 1150px) {
+  .l-intro {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr;
+    column-gap: 5vh;
+  }
+  .experience {
+    display: grid;
+    grid-template-columns: 425px auto;
+    row-gap: 30px;
+    column-gap: 20px;
+  }
+
+  /* Grid container for a bunch of skills */
+  .skills {
+    display: grid;
+    row-gap: 20px;
+    column-gap: 20px;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+  }
+
 }
 

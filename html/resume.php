@@ -25,28 +25,25 @@
 
 
     <div class="l-intro l-centered-row">
-      <div class="intro">
-        <!-- <img src="res/kittens.jpg"> -->
-        <div class="img-container img-circle">
-          <img src="res/headshot.png">
-        </div>
-        <div class="intro-text">
-          <h3>About me</h3>
-          <p>I'm a flexible developer with a wide variety of experience. I specialize in embedded/electrical systems, as well as web development. A strong background in linux leads to flexibility using open source tooling, embedded linux, and cloud configuration and management. </p>
-          </div>
+      <div class="img-container">
+        <img src="res/headshot.png">
       </div>
+      <div class="intro-text">
+        <h3>About me</h3>
+        <p>I'm a flexible developer with a wide variety of experience. I specialize in embedded/electrical systems, as well as web development. A strong background in linux leads to flexibility using open source tooling, embedded linux, and cloud configuration and management. </p>
+        </div>
     </div>  <!-- l-intro -->
 
 
     <div class="l-experience l-centered-row">
         <h2>Experience</h2>
         <div class="experience">
-          <div class="experience-sporian-left">
+          <div class="experience-location">
             <h3>Junior Firmware Engineer</h3>
             <p>Sporian Microsystems<br>June 2019 - May 2021</p>
 
           </div>
-          <div class="experience-sporian-right">
+          <div class="experience-info">
             <p>Sporian microsystems designs and manufactures sensors for unique and/or extreme environments.</p>
             <p>During my time at Sporian, I participated in many projects, often coming quickly up to speed to contribute. Worked with both high level scripting, and low level firmware.</p>
             <p>Key skills/experiences include:</p>
@@ -58,11 +55,11 @@
             </ul>
             <p>I coordinated firmware dev for a chemicsal sensor, working within a limited budget. Working prototype was used in a high-temperature sensing environment.<p>
           </div>
-          <div class="experience-rit-left">
+          <div class="experience-location">
             <h3>BS Computer Science, Minor in EE</h3>
             <p>Rochester Institute of Technology<br>August 2014 - May 2019</p>
           </div>
-          <div class="experience-rit-right">
+          <div class="experience-info">
             <p>Study covered several areas, focusing on:</p>
             <ul>
               <li>Systems engineering</li>
@@ -72,11 +69,11 @@
             </ul>
             <p>Persued interests in electrical engineering, learning circuit and embedded design, and ultimately finishing a minor.<p>
           </div>
-          <div class="experience-id-left">
+          <div class="experience-location">
             <h3>Backend Web Developer</h3>
             <p>Industry Dive<br>June 2018 - August 2018</p>
           </div>
-          <div class="experience-id-right">
+          <div class="experience-info">
             <p>Back-end web development, focusing on maintaining multiple sites:</p>
             <ul>
               <li>Adding features to Django back-end</li>

@@ -3,14 +3,6 @@
  */
 /* Overall container for the page */
 .l-page {
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  grid-template-columns: 2fr 3fr 2fr;
-  grid-template-areas:
-    "header header header"
-    "padding-left body padding-right"
-    "footer footer footer";
-  row-gap: 40px;
   height: 100%;
 }
 
@@ -19,11 +11,6 @@
 }
 .l-body {
   grid-area: body;
-
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 6%;
-  row-gap: 120px;
 }
 .l-footer {
   grid-area: footer;
@@ -34,49 +21,25 @@
  * Misc/modules
  */
 
-.project-1 {
-  /*grid-row: 1 / 2*/
-  grid-column
+
+.project-info {
+  padding: 13px 16px;
+  margin-bottom: 15vh;
 }
 
-.project-left-small {
-  grid-column: 1 / 2;
-}
 .project-left-large {
-  grid-column: 1 / 3;
   background-color: rgb(233, 247, 241);
   border-radius: 10%;
-  padding: 13px 16px;
-}
-.project-right-small {
-  grid-column: 3 / 4;
 }
 .project-right-large {
-  grid-column: 2 / 4;
   background-color: rgb(233, 247, 241);
   border-radius: 10%;
-  padding: 13px 16px;
 }
-
-
-/*
-.background-left {
-  position: absolute;
-  background-color: rgb(233, 247, 241);
-}
-.background-right {
-  position: absolute;
-  background-color: rgb(233, 247, 241);
-  width: 100%;
-  height: 100%;
-  z-index: -10;
-  border-radius: 8%;
-}
-*/
 
 
 .image-container {
   margin: auto;
+  width: max-content;
 }
 .image-container img {
   width: 100%;
@@ -87,6 +50,49 @@
 .centered-block {
   text-align: center;
   display: block;
+}
+
+
+@media (min-width: 1000px) {
+  .l-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 6%;
+    row-gap: 120px;
+  }
+
+  .l-page {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 2fr 3fr 2fr;
+    grid-template-areas:
+      "header header header"
+      "padding-left body padding-right"
+      "footer footer footer";
+    row-gap: 40px;
+  }
+
+  .project-left-small {
+    grid-column: 1 / 2;
+  }
+  .project-left-large {
+    grid-column: 1 / 3;
+    background-color: rgb(233, 247, 241);
+    border-radius: 10%;
+    padding: 13px 16px;
+  }
+  .project-right-small {
+    grid-column: 3 / 4;
+  }
+  .project-right-large {
+    grid-column: 2 / 4;
+    background-color: rgb(233, 247, 241);
+    border-radius: 10%;
+    padding: 13px 16px;
+  }
+  .project-row-2 {
+    grid-row: 2 / 3;
+  }
 }
 
 
